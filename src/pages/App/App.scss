@@ -1,0 +1,28 @@
+.page-wrapper {
+
+}
+
+.container {
+  padding: 0 1rem;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.header {
+  background: #eee;
+  height: 50px;
+  line-height: 50px;
+}
+
+.main {
+  min-height: calc(100vh - 50px - 40px);
+  padding-bottom: 3rem;
+}
+
+.footer {
+  background: #eee;
+  font-size: 1.4rem;
+  flex: 1;
+  height: 40px;
+  line-height: 40px;
+}

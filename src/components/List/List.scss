@@ -1,0 +1,33 @@
+.alarm-list-ul {
+  padding-bottom: 3rem;
+}
+
+.alarm-list-li {
+  display: flex;
+  padding: 1rem;
+
+  + .alarm-list-li {
+    margin-top: 0.5rem;
+  }
+
+  &:nth-child(odd) {
+    background: #e1e1e1;
+  }
+
+  &:nth-child(even) {
+    background: #efefef;
+  }
+}
+
+.alarm-list-details {
+  flex: 1;
+}
+
+.alarm-list-time {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.alarm-list-number {
+  color: #888;
+}
